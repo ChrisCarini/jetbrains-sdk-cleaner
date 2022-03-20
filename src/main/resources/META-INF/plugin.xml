@@ -1,0 +1,44 @@
+<idea-plugin>
+  <id>com.chriscarini.jetbrains.sdk-cleaner</id>
+  <name>SDK Cleaner</name>
+  <vendor url="https://jetbrains.chriscarini.com">Chris Carini</vendor>
+
+  <description><![CDATA[
+    A JetBrains plugin to assist in automatically cleaning up unused & removed SDKs.
+    ]]></description>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+  <depends>com.intellij.modules.python</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <applicationService
+        serviceImplementation="com.chriscarini.jetbrains.sdkcleaner.SdkCleaner"
+        preload="true"
+    />
+    <applicationService
+        serviceImplementation="com.chriscarini.jetbrains.sdkcleaner.settings.SettingsManager"/>
+    <applicationConfigurable
+        instance="com.chriscarini.jetbrains.sdkcleaner.settings.SettingsConfigurable"/>
+
+    <preloadingActivity implementation="com.chriscarini.jetbrains.sdkcleaner.SdkCleaner"/>
+  </extensions>
+
+  <applicationListeners>
+    <listener class="com.chriscarini.jetbrains.sdkcleaner.SdkCleaner"
+              topic="com.intellij.ide.AppLifecycleListener"/>
+  </applicationListeners>
+
+
+  <actions>
+    <group id="SamplePlugin.SampleMenu" text="SDK Cleaner" description="Menu for 'SDK Cleaner'">
+      <add-to-group group-id="MainMenu" anchor="first"/>
+    </group>
+
+    <action class="com.chriscarini.jetbrains.sdkcleaner.CleanSdkAction" id="CleanSdkAction">
+      <add-to-group group-id="SamplePlugin.SampleMenu" anchor="first"/>
+    </action>
+  </actions>
+
+</idea-plugin>
