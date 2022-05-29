@@ -8,7 +8,7 @@
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ChrisCarini/jetbrains-sdk-cleaner/IntelliJ%20Plugin%20Compatibility?label=IntelliJ%20Plugin%20Compatibility&logo=GitHub&style=flat-square)](https://github.com/ChrisCarini/jetbrains-sdk-cleaner/actions?query=workflow%3A%22IntelliJ+Plugin+Compatibility%22)
 
 <!-- Plugin description -->
-A JetBrains plugin to assist in automatically cleaning up unused & removed SDKs.
+A plugin for JetBrains IDEs to assist in automatically cleaning up unused & removed SDKs.
 <!-- Plugin description end -->
 
 Tested in IntelliJ, but _should_ work on other JetBrains IDEs.
