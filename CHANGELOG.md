@@ -7,6 +7,7 @@
 ### Added
 
 ### Changed
+- Upgrading IntelliJ from 2022.2.4 to 2022.3.0
 - Upgrading IntelliJ from 2021.3.2 to 2022.2.4
 
 ### Deprecated
