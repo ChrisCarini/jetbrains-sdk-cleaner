@@ -159,7 +159,7 @@ public class SettingsConfigurable implements Configurable {
     private final class CleanSdkListener implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
-            SdkUtils.cleanSDKs(SdkUtils.getSDKs(), null, cleanCount -> {
+            SdkUtils.cleanSDKs(SdkUtils.getSDKs(), cleanCount -> {
                 setSdkCleaningResult(PluginMessages.get("sdk.cleaner.settings.clean.now.results", cleanCount.get()));
                 updateSdkCleanerStatsResult();
             });

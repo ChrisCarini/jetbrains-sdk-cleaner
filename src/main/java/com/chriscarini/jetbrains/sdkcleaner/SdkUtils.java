@@ -29,12 +29,11 @@ public class SdkUtils {
     }
 
     public static void cleanSDKs(@NotNull final List<Sdk> sdks) {
-        SdkUtils.cleanSDKs(sdks, null, null);
+        SdkUtils.cleanSDKs(sdks, null);
     }
 
     public static void cleanSDKs(
             @NotNull final List<Sdk> sdks,
-            @Nullable final Consumer<AtomicInteger> runDuringCleanupConsumer,
             @Nullable final Consumer<AtomicInteger> runAfterCleanupConsumer
     ) {
         //noinspection UnstableApiUsage
@@ -45,9 +44,6 @@ public class SdkUtils {
                 boolean result = SdkUtils.cleanSdkIfNeeded(sdk);
                 if (result) {
                     cleanCount.addAndGet(1);
-                }
-                if (runDuringCleanupConsumer != null) {
-                    runDuringCleanupConsumer.accept(new AtomicInteger(index));
                 }
             });
 

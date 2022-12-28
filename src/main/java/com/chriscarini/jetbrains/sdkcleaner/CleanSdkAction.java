@@ -28,7 +28,7 @@ public class CleanSdkAction extends DumbAwareAction {
         SdkUtils.printSDKs();
 
         final List<Sdk> sdKs = SdkUtils.getSDKs();
-        SdkUtils.cleanSDKs(sdKs, null, cleanCount -> Messages.showMessageDialog(
+        SdkUtils.cleanSDKs(sdKs, cleanCount -> Messages.showMessageDialog(
                 project,
                 PluginMessages.get("sdk.cleaner.settings.clean.now.results", cleanCount.get()),
                 PluginMessages.get("sdk.cleaner.settings.clean.now.results", cleanCount.get()),
