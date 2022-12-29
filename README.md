@@ -4,8 +4,8 @@
 [![JetBrains IntelliJ Plugins](https://img.shields.io/jetbrains/plugin/v/10998-environment-variable-settings-summary?label=Latest%20Plugin%20Release&style=flat-square)](https://plugins.jetbrains.com/plugin/10998-environment-variable-settings-summary)
 [![JetBrains IntelliJ Plugins](https://img.shields.io/jetbrains/plugin/r/rating/10998-environment-variable-settings-summary?style=flat-square)](https://plugins.jetbrains.com/plugin/10998-environment-variable-settings-summary)
 [![JetBrains IntelliJ Plugins](https://img.shields.io/jetbrains/plugin/d/10998-environment-variable-settings-summary?style=flat-square)](https://plugins.jetbrains.com/plugin/10998-environment-variable-settings-summary)
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ChrisCarini/jetbrains-sdk-cleaner/JetBrains%20Plugin%20CI?logo=GitHub&style=flat-square)](https://github.com/ChrisCarini/jetbrains-sdk-cleaner/actions?query=workflow%3A%22JetBrains+Plugin+CI%22)
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ChrisCarini/jetbrains-sdk-cleaner/IntelliJ%20Plugin%20Compatibility?label=IntelliJ%20Plugin%20Compatibility&logo=GitHub&style=flat-square)](https://github.com/ChrisCarini/jetbrains-sdk-cleaner/actions?query=workflow%3A%22IntelliJ+Plugin+Compatibility%22)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/ChrisCarini/jetbrains-sdk-cleaner/build.yml?branch=main&logo=GitHub&style=flat-square)](https://github.com/ChrisCarini/jetbrains-sdk-cleaner/actions/workflows/build.yml)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/ChrisCarini/jetbrains-sdk-cleaner/compatibility.yml?branch=main&label=IntelliJ%20Plugin%20Compatibility&logo=GitHub&style=flat-square)](https://github.com/ChrisCarini/jetbrains-sdk-cleaner/actions/workflows/compatibility.yml)
 
 <!-- Plugin description -->
 A plugin for JetBrains IDEs to assist in automatically cleaning up unused & removed SDKs.
