@@ -22,7 +22,7 @@
     <applicationConfigurable
         instance="com.chriscarini.jetbrains.sdkcleaner.settings.SettingsConfigurable"/>
 
-    <preloadingActivity implementation="com.chriscarini.jetbrains.sdkcleaner.SdkCleaner"/>
+    <applicationService serviceImplementation="com.chriscarini.jetbrains.sdkcleaner.SdkCleaner" preload="true"/>
   </extensions>
 
   <applicationListeners>

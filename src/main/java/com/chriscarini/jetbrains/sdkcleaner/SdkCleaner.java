@@ -17,7 +17,7 @@ import static com.intellij.openapi.application.PathManager.PROPERTY_PATHS_SELECT
 import static com.intellij.openapi.application.PathManager.PROPERTY_SYSTEM_PATH;
 
 
-public class SdkCleaner extends PreloadingActivity implements AppLifecycleListener {
+public class SdkCleaner implements AppLifecycleListener {
     private static final Logger LOG = Logger.getInstance(SdkCleaner.class);
 
     @Override
@@ -44,23 +44,23 @@ public class SdkCleaner extends PreloadingActivity implements AppLifecycleListen
         SdkUtils.printSDKs();
     }
 
-    @Nullable
-    @Override
-    public Object execute(@NotNull Continuation<? super Unit> $completion) {
-        // triggered. #2
-        if (!SettingsManager.getInstance().getState().cleanOnStartup) {
-            return null;
-        }
-
-        final List<Sdk> sdks = SdkUtils.getSDKs();
-
-        LOG.debug("Before SDK cleaning...");
-        SdkUtils.printSDKs();
-
-        SdkUtils.cleanSDKs(sdks, null);
-
-        LOG.debug("After SDK cleaning...");
-        SdkUtils.printSDKs();
-        return null;
-    }
+//    @Nullable
+//    @Override
+//    public Object execute(@NotNull Continuation<? super Unit> $completion) {
+//        // triggered. #2
+//        if (!SettingsManager.getInstance().getState().cleanOnStartup) {
+//            return null;
+//        }
+//
+//        final List<Sdk> sdks = SdkUtils.getSDKs();
+//
+//        LOG.debug("Before SDK cleaning...");
+//        SdkUtils.printSDKs();
+//
+//        SdkUtils.cleanSDKs(sdks, null);
+//
+//        LOG.debug("After SDK cleaning...");
+//        SdkUtils.printSDKs();
+//        return null;
+//    }
 }
