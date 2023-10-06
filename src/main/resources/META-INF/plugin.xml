@@ -15,7 +15,6 @@
   <extensions defaultExtensionNs="com.intellij">
     <applicationService
         serviceImplementation="com.chriscarini.jetbrains.sdkcleaner.SdkCleaner"
-        preload="true"
     />
     <applicationService
         serviceImplementation="com.chriscarini.jetbrains.sdkcleaner.settings.SettingsManager"/>
