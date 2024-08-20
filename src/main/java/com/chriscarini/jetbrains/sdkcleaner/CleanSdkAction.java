@@ -15,9 +15,7 @@ public class CleanSdkAction extends DumbAwareAction {
     private static final Logger LOG = Logger.getInstance(CleanSdkAction.class);
 
     public CleanSdkAction() {
-        super("Clean SDKs");
-        getTemplatePresentation().setIcon(ProductIcons.getInstance().getProductIcon());
-        getTemplatePresentation().setDescription("Clean the SDKs...");
+        super("Clean SDKs", "Clean the SDKs...", ProductIcons.getInstance().getProductIcon());
     }
 
     @Override
