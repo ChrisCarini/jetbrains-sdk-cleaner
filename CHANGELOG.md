@@ -7,7 +7,6 @@
 ### Added
 
 ### Changed
-- Upgrading IntelliJ from 2024.3.4 to 2024.3.5
 
 ### Deprecated
 
@@ -16,6 +15,12 @@
 ### Fixed
 
 ### Security
+
+## [5.2.8] - 2025-03-19
+
+### Changed
+
+- Upgrading IntelliJ from 2024.3.4 to 2024.3.5
 
 ## [5.2.7] - 2025-03-01
 
@@ -272,7 +277,8 @@
 
 - Initial release.
 
-[Unreleased]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v5.2.7...HEAD
+[Unreleased]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v5.2.8...HEAD
+[5.2.8]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v5.2.7...v5.2.8
 [5.2.7]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v5.2.6...v5.2.7
 [5.2.6]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v5.2.5...v5.2.6
 [5.2.5]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v5.2.4...v5.2.5
