@@ -3,13 +3,8 @@ package com.chriscarini.jetbrains.sdkcleaner;
 import com.chriscarini.jetbrains.sdkcleaner.settings.SettingsManager;
 import com.intellij.ide.AppLifecycleListener;
 import com.intellij.openapi.application.PathManager;
-import com.intellij.openapi.application.PreloadingActivity;
 import com.intellij.openapi.diagnostic.Logger;
-import com.intellij.openapi.projectRoots.Sdk;
-import kotlin.Unit;
-import kotlin.coroutines.Continuation;
 import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
