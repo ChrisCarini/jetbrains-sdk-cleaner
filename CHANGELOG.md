@@ -4,14 +4,51 @@
 
 ## [Unreleased]
 
+### Added
+
+### Changed
+
+### Deprecated
+
+### Removed
+
+### Fixed
+
+### Security
+
+## [7.1.2] - 2026-08-11
+
+### Changed
+
+- Upgrading IntelliJ from 2026.2.0.1 to 2026.2.1
+
+## [7.1.1] - 2026-08-07
+
+### Changed
+
+- Upgrading IntelliJ from 2026.2 to 2026.2.0.1
+
+## [7.1.0] - 2026-07-17
+
+### Changed
+
+- Upgrading IntelliJ from 2026.1.4 to 2026.2
+
+## [7.0.4] - 2026-07-04
+
+### Changed
+
+- Upgrading IntelliJ from 2026.1.3 to 2026.1.4
+
+## [7.0.3] - 2026-06-06
+
+### Changed
+
+- Upgrading IntelliJ from 2026.1.2 to 2026.1.3
+
 ## [7.0.2] - 2026-05-16
 
 ### Changed
-- Upgrading IntelliJ from 2026.2.0.1 to 2026.2.1
-- Upgrading IntelliJ from 2026.2 to 2026.2.0.1
-- Upgrading IntelliJ from 2026.1.4 to 2026.2
-- Upgrading IntelliJ from 2026.1.3 to 2026.1.4
-- Upgrading IntelliJ from 2026.1.2 to 2026.1.3
 
 - Upgrading IntelliJ from 2026.1.1 to 2026.1.2
 
@@ -201,6 +238,11 @@
 ### Changed
 
 - Upgrading IntelliJ from 2024.2 to 2024.2.1
+
+## [5.1.0] - 2024-08-20
+
+### Changed
+
 - Upgrading IntelliJ from 2024.1.5 to 2024.2.0
 - Changed gradle build to Kotlin DSL (from Groovy DSL) in preparation of `IntelliJ Platform Gradle Plugin 2.0.0`.
 
@@ -377,6 +419,11 @@
 ### Changed
 
 - Upgrading IntelliJ from 2022.2.4 to 2022.3.0
+
+## [3.0.0] - 2022-11-28
+
+### Changed
+
 - Upgrading IntelliJ from 2021.3.2 to 2022.2.4
 
 ## [0.0.1] - 2022-02-07
@@ -385,66 +432,73 @@
 
 - Initial release.
 
-[Unreleased]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/7.0.2...HEAD
-[7.0.2]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/7.0.1...7.0.2
-[7.0.1]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/7.0.0...7.0.1
-[7.0.0]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/6.2.5...7.0.0
-[6.2.5]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/6.2.4...6.2.5
-[6.2.4]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/6.2.3...6.2.4
-[6.2.3]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/6.2.2...6.2.3
-[6.2.2]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/6.2.1...6.2.2
-[6.2.1]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/6.2.0...6.2.1
-[6.2.0]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/6.1.5...6.2.0
-[6.1.5]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/6.1.4...6.1.5
-[6.1.4]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/6.1.3...6.1.4
-[6.1.3]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/6.1.2...6.1.3
-[6.1.2]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/6.1.1...6.1.2
-[6.1.1]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/6.1.0...6.1.1
-[6.1.0]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/6.0.3...6.1.0
-[6.0.3]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/6.0.2...6.0.3
-[6.0.2]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/6.0.1...6.0.2
-[6.0.1]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/6.0.0...6.0.1
-[6.0.0]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/5.2.8...6.0.0
-[5.2.8]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/5.2.7...5.2.8
-[5.2.7]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/5.2.6...5.2.7
-[5.2.6]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/5.2.5...5.2.6
-[5.2.5]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/5.2.4...5.2.5
-[5.2.4]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/5.2.3...5.2.4
-[5.2.3]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/5.2.2...5.2.3
-[5.2.2]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/5.2.1...5.2.2
-[5.2.1]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/5.2.0...5.2.1
-[5.2.0]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/5.1.4...5.2.0
-[5.1.4]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/5.1.3...5.1.4
-[5.1.3]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/5.1.2...5.1.3
-[5.1.2]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/5.1.1...5.1.2
-[5.1.1]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/5.0.5...5.1.1
-[5.0.5]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/5.0.4...5.0.5
-[5.0.4]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/5.0.3...5.0.4
-[5.0.3]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/5.0.2...5.0.3
-[5.0.2]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/5.0.1...5.0.2
-[5.0.1]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/5.0.0...5.0.1
-[5.0.0]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/4.2.6...5.0.0
-[4.2.6]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/4.2.5...4.2.6
-[4.2.5]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/4.2.4...4.2.5
-[4.2.4]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/4.2.3...4.2.4
-[4.2.3]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/4.2.2...4.2.3
-[4.2.2]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/4.2.1...4.2.2
-[4.2.1]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/4.2.0...4.2.1
-[4.2.0]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/4.1.5...4.2.0
-[4.1.5]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/4.1.4...4.1.5
-[4.1.4]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/4.1.3...4.1.4
-[4.1.3]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/4.1.2...4.1.3
-[4.1.2]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/4.1.1...4.1.2
-[4.1.1]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/4.1.0...4.1.1
-[4.1.0]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/4.0.5...4.1.0
-[4.0.5]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/4.0.4...4.0.5
-[4.0.4]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/4.0.3...4.0.4
-[4.0.3]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/4.0.2...4.0.3
-[4.0.2]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/4.0.1...4.0.2
-[4.0.1]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/4.0.0...4.0.1
-[4.0.0]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/3.1.3...4.0.0
-[3.1.3]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/3.1.2...3.1.3
-[3.1.2]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/3.1.1...3.1.2
-[3.1.1]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/3.1.0...3.1.1
-[3.1.0]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/0.0.1...3.1.0
-[0.0.1]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/commits/0.0.1
+[Unreleased]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v7.1.2...HEAD
+[7.1.2]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v7.1.1...v7.1.2
+[7.1.1]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v7.1.0...v7.1.1
+[7.1.0]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v7.0.4...v7.1.0
+[7.0.4]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v7.0.3...v7.0.4
+[7.0.3]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v7.0.2...v7.0.3
+[7.0.2]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v7.0.1...v7.0.2
+[7.0.1]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v7.0.0...v7.0.1
+[7.0.0]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v6.2.5...v7.0.0
+[6.2.5]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v6.2.4...v6.2.5
+[6.2.4]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v6.2.3...v6.2.4
+[6.2.3]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v6.2.2...v6.2.3
+[6.2.2]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v6.2.1...v6.2.2
+[6.2.1]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v6.2.0...v6.2.1
+[6.2.0]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v6.1.5...v6.2.0
+[6.1.5]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v6.1.4...v6.1.5
+[6.1.4]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v6.1.3...v6.1.4
+[6.1.3]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v6.1.2...v6.1.3
+[6.1.2]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v6.1.1...v6.1.2
+[6.1.1]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v6.1.0...v6.1.1
+[6.1.0]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v6.0.3...v6.1.0
+[6.0.3]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v6.0.2...v6.0.3
+[6.0.2]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v6.0.1...v6.0.2
+[6.0.1]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v6.0.0...v6.0.1
+[6.0.0]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v5.2.8...v6.0.0
+[5.2.8]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v5.2.7...v5.2.8
+[5.2.7]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v5.2.6...v5.2.7
+[5.2.6]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v5.2.5...v5.2.6
+[5.2.5]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v5.2.4...v5.2.5
+[5.2.4]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v5.2.3...v5.2.4
+[5.2.3]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v5.2.2...v5.2.3
+[5.2.2]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v5.2.1...v5.2.2
+[5.2.1]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v5.2.0...v5.2.1
+[5.2.0]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v5.1.4...v5.2.0
+[5.1.4]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v5.1.3...v5.1.4
+[5.1.3]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v5.1.2...v5.1.3
+[5.1.2]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v5.1.1...v5.1.2
+[5.1.1]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v5.1.0...v5.1.1
+[5.1.0]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v5.0.5...v5.1.0
+[5.0.5]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v5.0.4...v5.0.5
+[5.0.4]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v5.0.3...v5.0.4
+[5.0.3]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v5.0.2...v5.0.3
+[5.0.2]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v5.0.1...v5.0.2
+[5.0.1]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v5.0.0...v5.0.1
+[5.0.0]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v4.2.6...v5.0.0
+[4.2.6]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v4.2.5...v4.2.6
+[4.2.5]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v4.2.4...v4.2.5
+[4.2.4]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v4.2.3...v4.2.4
+[4.2.3]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v4.2.2...v4.2.3
+[4.2.2]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v4.2.1...v4.2.2
+[4.2.1]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v4.2.0...v4.2.1
+[4.2.0]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v4.1.5...v4.2.0
+[4.1.5]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v4.1.4...v4.1.5
+[4.1.4]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v4.1.3...v4.1.4
+[4.1.3]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v4.1.2...v4.1.3
+[4.1.2]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v4.1.1...v4.1.2
+[4.1.1]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v4.1.0...v4.1.1
+[4.1.0]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v4.0.5...v4.1.0
+[4.0.5]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v4.0.4...v4.0.5
+[4.0.4]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v4.0.3...v4.0.4
+[4.0.3]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v4.0.2...v4.0.3
+[4.0.2]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v4.0.1...v4.0.2
+[4.0.1]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v4.0.0...v4.0.1
+[4.0.0]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v3.1.3...v4.0.0
+[3.1.3]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v3.1.2...v3.1.3
+[3.1.2]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v3.1.1...v3.1.2
+[3.1.1]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v3.1.0...v3.1.1
+[3.1.0]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v3.0.0...v3.1.0
+[3.0.0]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/e0603918b063c7ebe264769715353dbd6886ce14...v3.0.0
+[0.0.1]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/commit/e0603918b063c7ebe264769715353dbd6886ce14
