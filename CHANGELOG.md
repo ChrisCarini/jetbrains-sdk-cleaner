@@ -7,7 +7,6 @@
 ### Added
 
 ### Changed
-- Upgrading IntelliJ from 2026.2.1 to 2026.2.2
 
 ### Deprecated
 
@@ -16,6 +15,12 @@
 ### Fixed
 
 ### Security
+
+## [7.1.3] - 2026-09-03
+
+### Changed
+
+- Upgrading IntelliJ from 2026.2.1 to 2026.2.2
 
 ## [7.1.2] - 2026-08-11
 
@@ -433,7 +438,8 @@
 
 - Initial release.
 
-[Unreleased]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v7.1.2...HEAD
+[Unreleased]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v7.1.3...HEAD
+[7.1.3]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v7.1.2...v7.1.3
 [7.1.2]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v7.1.1...v7.1.2
 [7.1.1]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v7.1.0...v7.1.1
 [7.1.0]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v7.0.4...v7.1.0
@@ -501,5 +507,5 @@
 [3.1.2]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v3.1.1...v3.1.2
 [3.1.1]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v3.1.0...v3.1.1
 [3.1.0]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v3.0.0...v3.1.0
-[3.0.0]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/e0603918b063c7ebe264769715353dbd6886ce14...v3.0.0
-[0.0.1]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/commit/e0603918b063c7ebe264769715353dbd6886ce14
+[3.0.0]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/compare/v0.0.1...v3.0.0
+[0.0.1]: https://github.com/ChrisCarini/jetbrains-sdk-cleaner/commits/v0.0.1
